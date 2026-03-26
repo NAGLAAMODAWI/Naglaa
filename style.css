@@ -48,7 +48,7 @@ nav{position:fixed;top:0;left:0;right:0;background-color:rgba(10,25,47,.95);back
 /* Hero */
 header{min-height:100vh;display:flex;align-items:center;justify-content:center;padding:60px 5%;background:linear-gradient(-45deg,#0a192f,#112240,#0a192f,#1a2a4a);background-size:400% 400%;animation:backgroundShift 8s ease infinite;margin-top:70px}
 @keyframes backgroundShift{0%{background-position:0% 50%}50%{background-position:100% 50%}100%{background-position:0% 50%}}
-.hero-container{display:flex;align-items:center;justify-content:space-between;gap:50px;width:100%;max-width:1400px}
+.hero-container{display:flex;align-items:center;justify-content:space-between;gap:50px;width:100%;max-width:1400px;flex-direction:row-reverse}
 .hero-text{flex:1.2;z-index:2}
 .tagline{color:var(--accent-color);font-weight:600;font-size:1.2rem;display:block;margin-bottom:15px;letter-spacing:1px}
 h1{font-size:clamp(2rem,5vw,3.5rem);color:#fff;margin-bottom:25px;line-height:1.2}
